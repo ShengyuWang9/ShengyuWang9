@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate contribution animation
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           PROFILE_USER: ${{ github.repository_owner }}
         run: |
           python scripts/generate_contributions.py

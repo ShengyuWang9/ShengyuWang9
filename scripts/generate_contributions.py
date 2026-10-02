@@ -142,7 +142,7 @@ def row_offset(week_index: int, weekday: int) -> float:
 
 def month_labels(weeks):
     labels = []
-    previous_month = None
+    seen_months = set()
 
     for week_index, week in enumerate(weeks):
         days = week["contributionDays"]
@@ -150,21 +150,33 @@ def month_labels(weeks):
         if not days:
             continue
 
-        current_date = date.fromisoformat(days[0]["date"])
-        current_month = current_date.month
+        for day_data in days:
+            current_date = date.fromisoformat(
+                day_data["date"]
+            )
 
-        if current_month == previous_month:
-            continue
+            month_key = (
+                current_date.year,
+                current_date.month,
+            )
 
-        x = LEFT + week_index * STEP
+            # Only label a month in the week where
+            # that month actually begins.
+            if (
+                current_date.day <= 7
+                and month_key not in seen_months
+            ):
+                x = LEFT + week_index * STEP
 
-        labels.append(
-            f'<text class="month" x="{x}" y="14">'
-            f'{current_date.strftime("%b")}'
-            f"</text>"
-        )
+                labels.append(
+                    f'<text class="month" '
+                    f'x="{x}" y="14">'
+                    f'{current_date.strftime("%b")}'
+                    f"</text>"
+                )
 
-        previous_month = current_month
+                seen_months.add(month_key)
+                break
 
     return "\n".join(labels)
 
