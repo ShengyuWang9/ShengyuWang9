@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+### My Contributions
+
+<p align="center">
+  <img
+    src="./assets/contribution-animation.svg"
+    alt="Animated GitHub contribution graph"
+  />
+</p>
 <!--
 **ShengyuWang9/ShengyuWang9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

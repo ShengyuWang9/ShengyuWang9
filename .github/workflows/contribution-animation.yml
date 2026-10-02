@@ -1,0 +1,52 @@
+name: Contribution Animation
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_contributions.py"
+      - ".github/workflows/contribution-animation.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate contribution animation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: |
+          python scripts/generate_contributions.py
+
+      - name: Commit generated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/contribution-animation.svg
+
+          if git diff --cached --quiet; then
+            echo "Contribution graph has not changed."
+            exit 0
+          fi
+
+          git commit -m "chore: update contribution animation"
+          git push
