@@ -4,7 +4,7 @@
     height="146"
     viewBox="0 0 789 146"
     role="img"
-    aria-label="20 contributions in the last year"
+    aria-label="43 contributions in the last year"
 >
 
 <style>
@@ -140,19 +140,19 @@ text {
 
 </style>
 
-<text class="month" x="35" y="14">Sep</text>
-<text class="month" x="49" y="14">Oct</text>
-<text class="month" x="105" y="14">Nov</text>
-<text class="month" x="175" y="14">Dec</text>
-<text class="month" x="231" y="14">Jan</text>
+<text class="month" x="35" y="14">Oct</text>
+<text class="month" x="91" y="14">Nov</text>
+<text class="month" x="161" y="14">Dec</text>
+<text class="month" x="217" y="14">Jan</text>
 <text class="month" x="287" y="14">Feb</text>
 <text class="month" x="343" y="14">Mar</text>
-<text class="month" x="413" y="14">Apr</text>
-<text class="month" x="469" y="14">May</text>
-<text class="month" x="539" y="14">Jun</text>
-<text class="month" x="595" y="14">Jul</text>
-<text class="month" x="651" y="14">Aug</text>
-<text class="month" x="721" y="14">Sep</text>
+<text class="month" x="399" y="14">Apr</text>
+<text class="month" x="455" y="14">May</text>
+<text class="month" x="525" y="14">Jun</text>
+<text class="month" x="581" y="14">Jul</text>
+<text class="month" x="637" y="14">Aug</text>
+<text class="month" x="707" y="14">Sep</text>
+<text class="month" x="763" y="14">Oct</text>
 
 <text class="weekday" x="0" y="55">Mon</text>
 <text class="weekday" x="0" y="83">Wed</text>
@@ -2140,7 +2140,7 @@ text {
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-1"
     x="357"
     y="88"
     width="11"
@@ -2148,7 +2148,7 @@ text {
     rx="2"
     style="--delay:1.929s"
 >
-    <title>2026-03-12: 0 contributions</title>
+    <title>2026-03-12: 1 contributions</title>
 </rect>
 
 <rect
@@ -2176,7 +2176,7 @@ text {
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-4"
     x="371"
     y="32"
     width="11"
@@ -2184,7 +2184,7 @@ text {
     rx="2"
     style="--delay:1.950s"
 >
-    <title>2026-03-15: 0 contributions</title>
+    <title>2026-03-15: 5 contributions</title>
 </rect>
 
 <rect
@@ -2224,7 +2224,7 @@ text {
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-4"
     x="371"
     y="88"
     width="11"
@@ -2232,7 +2232,7 @@ text {
     rx="2"
     style="--delay:1.990s"
 >
-    <title>2026-03-19: 0 contributions</title>
+    <title>2026-03-19: 5 contributions</title>
 </rect>
 
 <rect
@@ -2260,7 +2260,7 @@ text {
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-1"
     x="385"
     y="32"
     width="11"
@@ -2268,11 +2268,11 @@ text {
     rx="2"
     style="--delay:2.010s"
 >
-    <title>2026-03-22: 0 contributions</title>
+    <title>2026-03-22: 1 contributions</title>
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-2"
     x="385"
     y="46"
     width="11"
@@ -2280,11 +2280,11 @@ text {
     rx="2"
     style="--delay:2.060s"
 >
-    <title>2026-03-23: 0 contributions</title>
+    <title>2026-03-23: 3 contributions</title>
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-1"
     x="385"
     y="60"
     width="11"
@@ -2292,11 +2292,11 @@ text {
     rx="2"
     style="--delay:2.030s"
 >
-    <title>2026-03-24: 0 contributions</title>
+    <title>2026-03-24: 1 contributions</title>
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-1"
     x="385"
     y="74"
     width="11"
@@ -2304,11 +2304,11 @@ text {
     rx="2"
     style="--delay:2.000s"
 >
-    <title>2026-03-25: 0 contributions</title>
+    <title>2026-03-25: 1 contributions</title>
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-1"
     x="385"
     y="88"
     width="11"
@@ -2316,7 +2316,7 @@ text {
     rx="2"
     style="--delay:2.050s"
 >
-    <title>2026-03-26: 0 contributions</title>
+    <title>2026-03-26: 1 contributions</title>
 </rect>
 
 <rect
@@ -2476,7 +2476,7 @@ text {
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-1"
     x="413"
     y="88"
     width="11"
@@ -2484,7 +2484,7 @@ text {
     rx="2"
     style="--delay:2.170s"
 >
-    <title>2026-04-09: 0 contributions</title>
+    <title>2026-04-09: 1 contributions</title>
 </rect>
 
 <rect
@@ -3736,7 +3736,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="623"
     y="88"
     width="11"
@@ -3744,7 +3744,7 @@ text {
     rx="2"
     style="--delay:2.975s"
 >
-    <title>2026-07-23: 1 contributions</title>
+    <title>2026-07-23: 3 contributions</title>
 </rect>
 
 <rect
@@ -4560,7 +4560,7 @@ text {
     rx="2"
     style="--delay:4.160s"
 >
-    <title>2026-09-29: 5 contributions</title>
+    <title>2026-09-29: 6 contributions</title>
 </rect>
 
 <rect
@@ -4596,7 +4596,7 @@ text {
     rx="2"
     style="--delay:4.150s"
 >
-    <title>2026-10-02: 3 contributions</title>
+    <title>2026-10-02: 4 contributions</title>
 </rect>
 
 
