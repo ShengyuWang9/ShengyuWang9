@@ -4,7 +4,7 @@
     height="146"
     viewBox="0 0 789 146"
     role="img"
-    aria-label="131 contributions in the last year"
+    aria-label="147 contributions in the last year"
 >
 
 <style>
@@ -1503,7 +1503,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="259"
     y="32"
     width="11"
@@ -1551,7 +1551,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="259"
     y="88"
     width="11"
@@ -1599,7 +1599,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="273"
     y="46"
     width="11"
@@ -3063,7 +3063,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="511"
     y="88"
     width="11"
@@ -3111,7 +3111,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="525"
     y="46"
     width="11"
@@ -3795,7 +3795,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="637"
     y="60"
     width="11"
@@ -3879,7 +3879,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="651"
     y="60"
     width="11"
@@ -3915,7 +3915,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="651"
     y="102"
     width="11"
@@ -3939,7 +3939,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="665"
     y="32"
     width="11"
@@ -3987,7 +3987,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="665"
     y="88"
     width="11"
@@ -4047,7 +4047,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="679"
     y="60"
     width="11"
@@ -4071,7 +4071,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="679"
     y="88"
     width="11"
@@ -4119,7 +4119,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="693"
     y="46"
     width="11"
@@ -4155,7 +4155,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="693"
     y="88"
     width="11"
@@ -4179,7 +4179,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="693"
     y="116"
     width="11"
@@ -4311,7 +4311,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="721"
     y="74"
     width="11"
@@ -4347,7 +4347,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="721"
     y="116"
     width="11"
@@ -4359,7 +4359,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="735"
     y="32"
     width="11"
@@ -4383,7 +4383,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-3"
     x="735"
     y="60"
     width="11"
@@ -4395,7 +4395,7 @@ text {
 </rect>
 
 <rect
-    class="day level-2"
+    class="day level-4"
     x="735"
     y="74"
     width="11"
@@ -4479,7 +4479,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="749"
     y="74"
     width="11"
@@ -4527,7 +4527,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="763"
     y="32"
     width="11"
@@ -4535,7 +4535,7 @@ text {
     rx="2"
     style="--delay:4.140s"
 >
-    <title>2026-11-22: 4 contributions</title>
+    <title>2026-11-22: 2 contributions</title>
 </rect>
 
 <rect
@@ -4563,7 +4563,7 @@ text {
 </rect>
 
 <rect
-    class="day level-1"
+    class="day level-2"
     x="763"
     y="74"
     width="11"
@@ -4571,11 +4571,11 @@ text {
     rx="2"
     style="--delay:4.130s"
 >
-    <title>2026-11-25: 2 contributions</title>
+    <title>2026-11-25: 3 contributions</title>
 </rect>
 
 <rect
-    class="day level-0"
+    class="day level-4"
     x="763"
     y="88"
     width="11"
@@ -4583,7 +4583,7 @@ text {
     rx="2"
     style="--delay:4.100s"
 >
-    <title>2026-11-26: 0 contributions</title>
+    <title>2026-11-26: 17 contributions</title>
 </rect>
 
 
